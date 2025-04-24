@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm install --include=optional sharp --legacy-peer-deps --save && npm install --os=linux --cpu=x64 sharp --legacy-peer-deps && npx trigger.dev deploy",
+    "build": "next build ",
     "start": "next start",
     "lint": "next lint"
   },
